@@ -1,0 +1,4 @@
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+pip3 install requests
+python3 "$BASEDIR"/watchparty.py
